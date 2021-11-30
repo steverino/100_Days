@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <main id="container">
+        <h1>Contact Us</h1>
+        <form action="#">
+            <h2>How can we help you?</h2>
+            <section id="info">
+                <ul>
+                    <li>
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </li>
+                    <li>
+                        <label for="email">Your E-Mail</label>
+                        <input type="email" id="email" required>
+                    </li>
+                    <li>
+                        <label for="phone ">Your Phone</label>
+                        <input type="tel" id="phone">
+                    </li>
+                </ul>
+            </section>
+            <section id="message">
+               
+                        <label for="message">Your Message</label>
+                        <textarea id="message"></textarea>
+                
+                
+            </section>
+            <section id="findus">
+                
+                <ul>
+                    
+                    <li>
+                        <label for="drop">How did you find us?</label>
+                        <select id="drop">
+                            <option value="">Web Search</option>
+                            <option value="">Billboard</option>
+                            <option value="">Magazine</option>
+                        </select>   
+                    </li>
+                </ul>
+            </section>
+            <section id="reply">
+                <h2>How should we reply?</h2>
+                <ul>
+                    <li>                     
+                        <input type="radio" />Call me
+                    </li>
+                    <li>
+                        <input type="radio" />Send email
+                    </li>
+                    <li>
+                        <input type="radio" />Don't reply
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <input type="checkbox" name="accept" id="accept">Accept Terms
+            </section>
+            <section id="btns">
+                <button class="btn-clear" type="reset">Clear</button>
+                <button class="btn-submit" type="submit">Submit</button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

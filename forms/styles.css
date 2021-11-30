@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(217, 241, 234);
+    margin: 8rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form {
+    width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(194, 212, 207);
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px rgb(0,0,0);
+}
+
+#reply input {
+   margin-right: 0.5rem;
+}
+
+
+#container {
+    width: 100%;
+    
+    margin: 0 auto;
+}
+
+#info ul {
+    
+    padding: 0;
+}
+
+#info input {
+    margin-bottom: 1rem;
+    display: block;
+}
+
+#message {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#findus select {
+    display: block;
+}
+
+#findus select {
+    margin-top: .5rem;
+}
+
+#reply ul {
+    padding: 0;
+    display: block;
+}
+
+
+#findus ul {
+    padding: 0;
+
+}
+
+#accept {
+    margin-right: 0.5rem;
+}
+
+#btns {
+    margin-top: 1rem;
+    text-align: right;
+}
+
+#btns button {
+    width: 6rem;
+}
+
+.btn-clear {
+    padding: 0.2rem;
+    background-color: rgb(194, 212, 207);
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgb(0,0,0);
+}
+
+.btn-clear:hover {
+    background-color: rgb(194, 200, 200);
+}
+
+.btn-submit {
+    padding: 0.2rem;
+    color: white;
+    background-color: rgb(37, 58, 52);
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgb(0,0,0);
+}
+
+.btn-submit:hover {
+
+    background-color: rgb(53, 83, 75);
+}
